@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+    stages {
+        stage('git checkout'){
+            steps {
+                echo "Checking out code from git repository"
+            }
+        }
+        stage("building docker image"){
+            steps {
+                echo "Building docker image using Dockerfile"
+            }
+        }
+    }
+}
