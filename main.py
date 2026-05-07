@@ -23,11 +23,6 @@ print("This is the second line of code for poll scm commit")
 # CMD ["nginx", "-g", "daemon off;"]
 
 
-# FROM python:3.12
-# WORKDIR /app
-# COPY print.py .
-# ENTRYPOINT ["python3"]
-# CMD ["print.py"]
 
 # ENTRYPOINT [ "java" ]
 # CMD ["-jar", "app.jar"]
