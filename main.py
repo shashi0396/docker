@@ -1,6 +1,9 @@
 print("Hey this is from microdegree class demo")
 
 
+print("This is the second line of code for poll scm commit")
+
+
 # FROM nginx:latest
 # WORKDIR /app
 # RUN apt update && apt install -y nginx
